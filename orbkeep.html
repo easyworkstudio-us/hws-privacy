@@ -9,14 +9,16 @@
 <body>
 <main>
 <h1>Orb Keep — Privacy Policy</h1>
-<p class="date">Effective date: 1 November 2026 · Package: com.HardWorkStudio.OrbKeep</p>
+<p class="date">Effective date: 5 November 2026 · Package: com.HardWorkStudio.OrbKeep</p>
 
 <h2>Summary</h2>
-<p>Orb Keep is a game for adults. There are no accounts of our own, no chat and no social features, and we never ask for your name, email or other contact details. Game progress is saved on your device and, if you use Google Play Games, in your Play Games cloud save. Optional in-app purchases are paid through Google Play. The game uses Google services to show ads and to
-understand how the game is played, as described below.</p>
+<p>Orb Keep is a game for adults. There are no accounts of our own, no chat and no social features, and we never ask for your name, email or other contact details. Game progress is saved on your device and, if you use Google Play Games (Android only), in your Play Games cloud save. Optional in-app purchases are paid through Google Play on Android and through the App Store on iPhone and iPad. The game uses Google services to show ads and to
+understand how the game is played, as described below. This policy covers the Android version (Google Play) and the iPhone and iPad version (App Store); where they differ, it says so.</p>
 
 <h2>Google Play Games</h2>
 <ul>
+  <li>Google Play Games is available only in the Android version. The iPhone and iPad version (App Store) has no Play Games sign-in, achievements,
+      leaderboards or cloud save.</li>
   <li>If your device has a Google Play Games profile, the game signs in to it automatically. Everything in the game works without it.</li>
   <li>When you are signed in, Google Play Games stores your player ID, the achievements you unlock, your leaderboard scores and a cloud
       copy of your game progress (Saved Games), so you can continue on another device. Leaderboards show your Play Games name and avatar
@@ -32,6 +34,9 @@ understand how the game is played, as described below.</p>
       your card or other payment details.</li>
   <li>From Google Play the game receives only what it needs to deliver a purchase — the product, the order and the purchase token. It checks
       the purchase on the device and sends it only back to Google Play to confirm it.</li>
+  <li>On iPhone and iPad (App Store version), purchases go through the App Store (Apple's StoreKit), and Apple handles the payment: we never see
+      your card or other payment details. From StoreKit the game receives only the product and the transaction, which StoreKit verifies on the
+      device; apart from the analytics event below, nothing about purchases is sent to us. <strong>Restore purchases</strong> in the shop asks the App Store for the purchases made earlier with your Apple ID.</li>
   <li>Google Analytics for Firebase records that a purchase was made (product, price and currency) together with the other analytics below.</li>
 </ul>
 
@@ -44,6 +49,10 @@ understand how the game is played, as described below.</p>
   <li>With your consent (or where consent is not required), AdMob may use the Android Advertising ID and similar identifiers to personalise
       and measure ads. Without consent, ads are not personalised. You can reset or delete the Advertising ID in your device settings
       (Settings → Google → Ads, or Settings → Privacy → Ads).</li>
+  <li>On iPhone and iPad (App Store version), the consent form and <strong>Privacy choices</strong> work the same way. The game does not ask for
+      App Tracking Transparency permission, so AdMob does not receive the IDFA (Apple's advertising identifier): ads are personalised only as your
+      consent allows and without the IDFA. AdMob may still use the IP address, device and app information and identifiers that Apple allows without
+      tracking permission (such as the identifier for vendor, IDFV) to deliver and measure ads, limit how often they are shown and prevent fraud.</li>
   <li>To deliver ads, measure them and prevent fraud, Google processes technical information such as IP address, device model, operating system,
       app version and ad interactions. Personalised advertising may count as a "sale" or "sharing" of personal information under some US state laws;
       you can opt out in <strong>Privacy choices</strong>.</li>
@@ -54,6 +63,8 @@ understand how the game is played, as described below.</p>
 <ul>
   <li>The game sends anonymous gameplay events — sessions, levels started and finished, reward videos watched, errors — together with an app
       instance ID, device model, operating system, app version and approximate country derived from the IP address.</li>
+  <li>The iPhone and iPad version (App Store) uses Google Analytics for Firebase in the same way. Apple devices have no Android Advertising ID,
+      and because the game does not ask for tracking permission, Firebase does not get the IDFA either: it identifies the installation by its app instance ID.</li>
   <li>We use this only to see where players get stuck or lose interest and to improve the game and its balance. It is not used to identify you.</li>
   <li>Where consent is required, analytics and ad storage follow your choice in the consent form (Google Consent Mode).</li>
   <li>Event data is kept no longer than 14 months and then deleted automatically. More: <a href="https://firebase.google.com/support/privacy">Privacy and security in Firebase</a>.</li>
@@ -61,15 +72,15 @@ understand how the game is played, as described below.</p>
 
 <h2>Who receives data</h2>
 <p>We do not sell data. Data described above is processed only by Google — as our service provider for ads and analytics, and as the provider of Google Play Games and Google Play billing — under the
-<a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Data is encrypted in transit.</p>
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>, and, for purchases in the iPhone and iPad version, by Apple as the provider of App Store payments under the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>. Data is encrypted in transit.</p>
 
 <h2>Data stored on the device</h2>
-<p>Game progress and settings (runs, unlocked relics and orbs, and settings) are stored locally and are deleted when the game is uninstalled. If you use Google Play Games, a copy is also kept in your Play Games cloud save (see above).</p>
+<p>Game progress and settings (runs, unlocked relics and orbs, and settings) are stored locally and are deleted when the game is uninstalled, on Android and on iPhone or iPad alike. If you use Google Play Games (Android only), a copy is also kept in your Play Games cloud save (see above).</p>
 
 <h2>Your choices and rights</h2>
 <ul>
   <li>Change ad consent: <strong>Settings → Privacy choices</strong> in the game.</li>
-  <li>Reset or delete the Advertising ID in your device settings.</li>
+  <li>Reset or delete the Advertising ID in your device settings (Android). On iPhone and iPad there is no advertising ID to reset: the game does not ask for tracking permission, so it never gets the IDFA.</li>
   <li>Delete local data: uninstall the game.</li>
   <li>Delete analytics data: see <a href="#delete-data">How to delete your data</a>.</li>
   <li>Delete Google Play Games data and the cloud save: in your Play Games profile settings (see Google Play Games above).</li>
@@ -90,8 +101,8 @@ understand how the game is played, as described below.</p>
 <p>Ask before uninstalling: a reinstalled game gets a new Data ID, and data under the old ID can no longer be matched to you (it is deleted
 automatically after 14 months). If you declined analytics in the consent form, Settings shows no Data ID and the buttons are inactive:
 in that case Google Analytics does not assign this installation an app instance ID, so its analytics data is not linked to your device.
-If you do not see the Data ID rows at all, update the game. You can always write to us. Ad data is processed by Google; you can reset or delete the Advertising ID in your device settings.
-Game progress is stored on the device (and, if you signed in, in the Play Games cloud save — delete it in your Play Games profile).</p>
+If you do not see the Data ID rows at all, update the game. You can always write to us. Ad data is processed by Google; on Android you can reset or delete the Advertising ID in your device settings. On iPhone and iPad there is no advertising ID to reset: the game does not ask for tracking permission and never gets the IDFA (Apple's tracking settings are in Settings → Privacy &amp; Security → Tracking).
+Game progress is stored on the device (and, if you signed in to Play Games on Android, in the Play Games cloud save — delete it in your Play Games profile).</p>
 
 <h2>Children</h2>
 <p>The game is not directed to children and is intended for users aged 18 and over. We do not knowingly collect personal information from
@@ -105,11 +116,13 @@ children. If you believe a child has used the game and data was collected, conta
 
 <div class="lang" lang="ru">
 <h1>Крепость орбов — политика конфиденциальности</h1>
-<p class="date">Действует с 1 ноября 2026 г.</p>
+<p class="date">Действует с 5 ноября 2026 г.</p>
 <h2>Коротко</h2>
-<p>«Крепость орбов» — игра для взрослых. В ней нет своих аккаунтов, чатов и социальных функций; мы не спрашиваем имя, почту и другие контакты. Прогресс сохраняется на устройстве, а если вы пользуетесь Google Play Играми, — ещё и в облаке Play Игр. Необязательные покупки оплачиваются через Google Play. Для рекламы и для понимания того, как играют в игру, используются сервисы Google — подробнее ниже.</p>
+<p>«Крепость орбов» — игра для взрослых. В ней нет своих аккаунтов, чатов и социальных функций; мы не спрашиваем имя, почту и другие контакты. Прогресс сохраняется на устройстве, а если вы пользуетесь Google Play Играми (только Android), — ещё и в облаке Play Игр. Необязательные покупки оплачиваются через Google Play на Android и через App Store на iPhone и iPad. Для рекламы и для понимания того, как играют в игру, используются сервисы Google — подробнее ниже. Политика относится к версии для Android (Google Play) и к версии для iPhone и iPad (App Store); где они различаются, это сказано.</p>
 <h2>Google Play Игры</h2>
 <ul>
+  <li>Google Play Игры есть только в версии для Android. В версии для iPhone и iPad (App Store) нет входа в Play Игры, достижений, таблиц рекордов
+      и облачного сохранения.</li>
   <li>Если на устройстве есть профиль Google Play Игр, игра входит в него автоматически. Без профиля в игре работает всё.</li>
   <li>После входа Google Play Игры хранят ваш ID игрока, полученные достижения, очки в таблицах рекордов и облачную копию прогресса
       (Saved Games), чтобы продолжить игру на другом устройстве. Таблицы показывают другим игрокам ваше имя и аватар Play Игр по
@@ -124,6 +137,9 @@ children. If you believe a child has used the game and data was collected, conta
       мы не видим.</li>
   <li>От Google Play игра получает только то, что нужно для выдачи покупки, — товар, заказ и токен покупки. Покупка проверяется на устройстве
       и отправляется только обратно в Google Play для подтверждения.</li>
+  <li>На iPhone и iPad (версия из App Store) покупки проходят через App Store (StoreKit от Apple), оплату проводит Apple: данные карты и платежа
+      мы не видим. От StoreKit игра получает только товар и транзакцию, а StoreKit проверяет транзакцию на устройстве; кроме события аналитики ниже, нам о покупках ничего не отправляется.
+      Кнопка <strong>Восстановить покупки</strong> в магазине запрашивает у App Store покупки, сделанные раньше с вашим Apple ID.</li>
   <li>Google Analytics for Firebase отмечает факт покупки (товар, цену и валюту) вместе с остальной аналитикой ниже.</li>
 </ul>
 <h2>Реклама (Google AdMob)</h2>
@@ -134,6 +150,11 @@ children. If you believe a child has used the game and data was collected, conta
       Изменить выбор можно в любой момент: <strong>Настройки → Настройки конфиденциальности</strong>.</li>
   <li>С вашего согласия (или там, где оно не требуется) AdMob может использовать рекламный идентификатор Android для персонализации и учёта рекламы.
       Без согласия реклама не персонализируется. Рекламный идентификатор можно сбросить или удалить в настройках устройства.</li>
+  <li>На iPhone и iPad (версия из App Store) форма согласия и «Настройки конфиденциальности» работают так же. Игра не запрашивает
+      разрешение на отслеживание (App Tracking Transparency), поэтому AdMob не получает IDFA — рекламный идентификатор Apple: реклама персонализируется
+      только по вашему согласию и без IDFA. AdMob может использовать IP-адрес, данные об устройстве и приложении и идентификаторы, которые Apple допускает
+      без разрешения на отслеживание (например, идентификатор поставщика IDFV), чтобы показывать и учитывать рекламу, ограничивать частоту показов
+      и защищаться от мошенничества.</li>
   <li>Для показа рекламы, её учёта и защиты от мошенничества Google обрабатывает технические данные: IP-адрес, модель устройства, версию ОС и
       приложения, действия с рекламой.</li>
 </ul>
@@ -141,15 +162,17 @@ children. If you believe a child has used the game and data was collected, conta
 <ul>
   <li>Игра отправляет обезличенные игровые события — сессии, начатые и пройденные уровни, просмотренные видео, ошибки — вместе с идентификатором
       экземпляра приложения, моделью устройства, версией ОС и приложения и примерной страной по IP-адресу.</li>
+  <li>Версия для iPhone и iPad (App Store) использует Google Analytics for Firebase так же. На устройствах Apple нет рекламного идентификатора Android,
+      а разрешение на отслеживание игра не запрашивает, поэтому IDFA Firebase тоже не получает: установку обозначает идентификатор экземпляра приложения.</li>
   <li>Это нужно только чтобы видеть, где игрокам трудно или скучно, и улучшать игру. Для установления личности данные не используются.</li>
   <li>Там, где нужно согласие, аналитика следует вашему выбору в форме согласия (Google Consent Mode).</li>
   <li>События хранятся не дольше 14 месяцев и затем удаляются автоматически.</li>
 </ul>
 <h2>Кому передаются данные</h2>
-<p>Мы не продаём данные. Их обрабатывает только Google как наш поставщик рекламы и аналитики и как поставщик Google Play Игр и платёжной системы Google Play, по <a href="https://policies.google.com/privacy">политике Google</a>.
+<p>Мы не продаём данные. Их обрабатывает только Google как наш поставщик рекламы и аналитики и как поставщик Google Play Игр и платёжной системы Google Play, по <a href="https://policies.google.com/privacy">политике Google</a>, а покупки в версии для iPhone и iPad — Apple как поставщик платежей App Store, по <a href="https://www.apple.com/legal/privacy/">политике Apple</a>.
 Данные передаются в зашифрованном виде.</p>
 <h2>Данные на устройстве</h2>
-<p>Прогресс и настройки (забеги, открытые реликвии и шары, настройки) хранятся на устройстве и удаляются вместе с игрой. Если вы пользуетесь Google Play Играми, копия хранится и в облаке Play Игр (см. выше).</p>
+<p>Прогресс и настройки (забеги, открытые реликвии и шары, настройки) хранятся на устройстве и удаляются вместе с игрой — и на Android, и на iPhone и iPad. Если вы пользуетесь Google Play Играми (только Android), копия хранится и в облаке Play Игр (см. выше).</p>
 <h2>Ваши права</h2>
 <p>Изменить согласие — «Настройки → Настройки конфиденциальности»; удалить локальные данные — удалить игру; удалить данные аналитики — см.
 <a href="#delete-data-ru">«Как удалить свои данные»</a>; удалить данные Play Игр и облачное сохранение — в настройках профиля Play Игр; запросить доступ к данным или задать другой вопрос — написать нам.</p>
@@ -166,8 +189,8 @@ children. If you believe a child has used the game and data was collected, conta
 <p>Запросите удаление до того, как удалить игру: после переустановки у неё новый ID данных, и данные под старым ID уже нельзя связать с вами
 (они удалятся автоматически через 14 месяцев). Если вы отказались от аналитики в форме согласия, ID данных не показывается и кнопки неактивны:
 в этом случае Google Analytics не присваивает установке идентификатор, и данные аналитики не привязаны к вашему устройству.
-Если строк с ID данных нет совсем, обновите игру. Написать нам можно всегда. Данные рекламы обрабатывает Google; рекламный идентификатор можно сбросить или удалить в настройках
-устройства. Прогресс хранится на устройстве (а если вы вошли — и в облаке Play Игр; удалить его можно в профиле Play Игр).</p>
+Если строк с ID данных нет совсем, обновите игру. Написать нам можно всегда. Данные рекламы обрабатывает Google; на Android рекламный идентификатор можно сбросить или удалить в настройках
+устройства. На iPhone и iPad сбрасывать нечего: игра не запрашивает разрешение на отслеживание и не получает IDFA (настройки отслеживания Apple — «Настройки → Конфиденциальность и безопасность → Отслеживание»). Прогресс хранится на устройстве (а если вы вошли в Play Игры на Android — и в облаке Play Игр; удалить его можно в профиле Play Игр).</p>
 <h2>Дети</h2>
 <p>Игра не предназначена для детей, она для пользователей от 18 лет. Мы сознательно не собираем данные детей; если ребёнок играл и данные были
 собраны — напишите нам, и мы их удалим.</p>
