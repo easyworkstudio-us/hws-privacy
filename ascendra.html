@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Ascendra</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a14;
+            color: #e0dcd4;
+            padding: 24px 20px 48px;
+            line-height: 1.7;
+            font-size: 15px;
+        }
+        h1 {
+            color: #d4a574;
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: 6px;
+            letter-spacing: 1px;
+        }
+        .date {
+            text-align: center;
+            color: #8a8680;
+            font-size: 13px;
+            margin-bottom: 28px;
+        }
+        h2 {
+            color: #c9956b;
+            font-size: 17px;
+            margin-top: 28px;
+            margin-bottom: 10px;
+        }
+        h3 {
+            color: #b8956e;
+            font-size: 15px;
+            margin-top: 16px;
+            margin-bottom: 8px;
+        }
+        p { margin-bottom: 12px; }
+        ul { padding-left: 22px; margin-bottom: 12px; }
+        li { margin-bottom: 6px; }
+        a { color: #7ecdc0; }
+        .highlight { color: #d4a574; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0;
+        }
+        th, td {
+            border: 1px solid #2a2a3a;
+            padding: 10px;
+            text-align: left;
+            font-size: 13px;
+        }
+        th {
+            background: #1a1a2e;
+            color: #c9956b;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="date">Effective Date: November 16, 2026</p>
+
+    <p><span class="highlight">Ascendra</span> (formerly VibeCheck) ("the App", "we", "us", or "our") respects your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application, which provides tarot readings, AI-powered dream interpretation, and daily horoscopes. Please read this Privacy Policy carefully. By using the App, you consent to the practices described in this policy.</p>
+
+    <h2>1. Information We Collect</h2>
+
+    <h3>1.1 Information You Provide</h3>
+    <ul>
+        <li><strong>Google Account Information:</strong> When you sign in with Google, we receive your name, email address, and profile photo from your Google account.</li>
+                <li><strong>Apple Account Information:</strong> When you sign in with Apple, we receive your name and email address. Apple provides these only at your first sign-in, and never provides a profile photo. If you choose <em>Hide My Email</em>, we receive and store an Apple private-relay address instead of your real one.</li>
+        <li><strong>Using the App without an account:</strong> If you start without signing in, we create an anonymous account for this installation. Your readings, dream interpretations, horoscopes, credits and usage counters are stored on our servers (Firestore) under this anonymous account, together with your device identifier (on Android, the Android ID), just as for a signed-in account. Only this installation can open it. If you later sign in with a Google account (or, on iOS, an Apple ID) you have not used in the App before, the anonymous account becomes that account and keeps your data. If you sign in to an account you already have, only your usage counters and unused purchased credits are moved to it; the anonymous account and its readings stay on our servers. Because an anonymous account has no email address, we cannot find it from an email request. To delete it, use <em>Profile → Delete Account</em> before you sign in to another account, uninstall the App or clear its data; otherwise it stays on our servers.</li>
+        <li><strong>Custom Profile Data:</strong> Display name and avatar preferences you set within the App.</li>
+        <li><strong>Date of Birth (optional):</strong> You may optionally provide your date of birth. It is used solely to determine your zodiac sign for more accurate Card of the Day, tarot, and horoscope personalization. Your date of birth is stored in your account (Firestore) and is never required to use the App — you can skip it, and you can change it at any time in your profile. The App does not currently have a button to clear a date of birth once it is saved; to remove it, email us (see Section 14) and we will delete it, or delete your account. Only the derived zodiac sign (not your full date of birth) is sent to our AI service when generating readings.</li>
+        <li><strong>Questions and Readings:</strong> The questions you ask during tarot readings are sent to our AI service for interpretation. We store the question, the cards drawn and the AI-generated interpretation in your account.</li>
+        <li><strong>Dream Descriptions:</strong> The dream descriptions you submit for interpretation are sent to our AI service for analysis. We store the dream text and AI-generated interpretation in your account.</li>
+        <li><strong>Horoscope Requests:</strong> Your zodiac sign selection and horoscope type (daily, monthly, or yearly) are used to generate personalized horoscope content. Generated horoscopes are stored in your account.</li>
+        <li><strong>Language Preference:</strong> Your selected language for the App interface and reading interpretations (English, Russian, Spanish, Portuguese, Hindi, Indonesian, German, or French).</li>
+        <li><strong>Referral Code:</strong> If you apply a referral code from another user, we store the referral relationship to grant bonus credits to both parties.</li>
+        <li><strong>Onboarding Answer (optional):</strong> If you answer the question about what brought you to the App, we store your answer in your account and use it to understand how the App is used.</li>
+        <li><strong>Content Reports:</strong> If you report an AI-generated text, we store which text you reported and when.</li>
+    </ul>
+
+    <h3>1.2 Information Collected Automatically</h3>
+    <ul>
+        <li><strong>Device Information:</strong> Device type, operating system version, and unique device identifiers.</li>
+        <li><strong>Usage Data:</strong> How you interact with the App, including tarot readings performed, dream interpretations requested, horoscopes generated, features used, session duration, daily action counts, and achievement progress.</li>
+        <li><strong>Subscription and Purchase Data:</strong> Your Ascendra Plus status, credit balance, starter credits and any unused free welcome readings from earlier versions, readings consumed per day, and the time your account was created (used to decide whether you are eligible for starter credits and, for accounts created by earlier versions of the App, whether their unused free welcome readings are kept; the current version converts them into credits).</li>
+        <li><strong>Streak Data:</strong> Your daily Card of the Day streak count, last activity date, and streak protection usage, used to track consecutive usage.</li>
+        <li><strong>Rewarded Ad Data (earlier versions):</strong> If you watched rewarded video ads in an earlier version of the App (see Section 9), the number of ads watched per day, with the date and timestamp of each ad view session, is stored server-side in Firestore to enforce the daily limit (maximum 2 per day). The current version of the App does not show ads.</li>
+        <li><strong>Referral Data:</strong> Your unique referral code, whether you have applied another user's referral code, and the referral relationship (referrer ↔ referred user).</li>
+        <li><strong>Analytics Data:</strong> Usage events (for example, which screens and features are used, sign-in method, and whether a date of birth is set) collected via Firebase Analytics to understand how the App is used and to improve it. These events are linked to an app-instance identifier and to your account ID. On Android, Firebase Analytics also collects the device advertising identifier (AAID) where available; this does not depend on your subscription. On iOS, the advertising identifier (IDFA) is collected only if you grant App Tracking Transparency permission. You can reset or delete your advertising ID at any time in your device settings.</li>
+        <li><strong>Crash and Diagnostic Data:</strong> If the App crashes, stops responding (on Android), or runs into an internal error — including errors that do not close the App — Firebase Crashlytics (Google) receives a technical report so that we can find and fix the problem. Depending on the device platform, a report may include: the stack traces of the App's threads (the program functions that were running at that moment) and other technical details of the App's state; the type of the error and its technical description; the time of the event; the App version; the device model and manufacturer, processor type, operating system version, and language and region setting; total and free memory and disk space; screen orientation and whether the App was in the foreground; on Android, the battery level and charging state, whether the proximity sensor was active, and whether the device is rooted; a random Crashlytics installation identifier (used to count how many installations an error affects), the Firebase installation ID, and a random session ID; and the analytics events recorded shortly before the error (see <em>Analytics Data</em> above). Before the App reports an internal error it has detected itself, it removes email addresses, account and document identifiers, and other long identifiers from the error text and shortens it. We do not attach your account ID, email address, or name to crash reports, and they do not include your questions, dream descriptions, or AI interpretations. Crash reports are sent by the versions of the App distributed through Google Play and the App Store, including their beta-test builds; development builds on developers' own devices do not send them unless a developer explicitly turns this on for a test.</li>
+        <li><strong>Crash-Free Statistics:</strong> To measure how many sessions pass without a crash, the Crashlytics SDK also sends a short record each time a new App session starts (for example, when you open the App): a random session ID, the Firebase installation ID, the time, and technical details such as the App version, device model, and operating system version. When the App crashes, Crashlytics also adds a crash event (the time only, without crash details) to Firebase Analytics, where, like other analytics events, it is linked to your account ID.</li>
+    </ul>
+
+    <h3>1.3 Information Stored Locally on Your Device</h3>
+    <ul>
+        <li><strong>Offline Cache:</strong> Your Card of the Day is cached on your device. The Firebase SDK's own offline persistence also keeps on disk your profile, subscription state and the journal entries the App has loaded (including your questions and the AI-generated interpretations), so the App works without an internet connection. None of this is transmitted anywhere beyond what is already stored in your account, and all of it is removed when you uninstall the App or clear its data.</li>
+        <li><strong>Drafts:</strong> The question or dream description you are typing is saved on your device so it is not lost. It is erased after a successful reading, when our safety check rejects the text, when you sign out, and when you delete your account in the App.</li>
+        <li><strong>Consent and Language Choices:</strong> Your choices in <em>Profile → Data and consents</em> (with their dates) and your App language are stored on your device.</li>
+        <li><strong>Widget Data (SharedPreferences):</strong> If you use the home screen widget, a copy of your current daily card name and message preview is stored locally on your device to power the widget display.</li>
+        <li><strong>Sound Preferences:</strong> Your settings for sound effects (enabled/disabled) and ambient music (enabled/disabled) are stored locally via SharedPreferences.</li>
+        <li><strong>Notification Preferences:</strong> Your notification settings (pause all; daily card, dream, horoscope, streak and astrological event reminders) are stored locally.</li>
+        <li><strong>Pending Crash Reports:</strong> A crash or error report (see Section 1.2) is first saved on your device and is usually sent the next time the App is opened with an internet connection. It is removed from the device once sent; unsent reports are removed when you uninstall the App or clear its data.</li>
+    </ul>
+
+    <h3>1.4 Information from Third-Party Services</h3>
+    <ul>
+        <li><strong>Google Sign-In:</strong> Authentication data provided by Google.</li>
+        <li><strong>Google Play Billing:</strong> Subscription status, purchase history, and credit package transactions (we do not have access to your payment method details such as credit card numbers).</li>
+        <li><strong>Firebase:</strong> Analytics, authentication, Firestore database, Cloud Functions, crash reporting (Firebase Crashlytics), and App Check services. App Check confirms that requests come from a genuine copy of the App, using the Google Play Integrity API on Android and Apple App Attest or DeviceCheck on iOS.</li>
+    </ul>
+
+    <h2>2. How We Use Your Information</h2>
+    <p>We use the collected information for the following purposes:</p>
+    <ul>
+        <li>To provide and maintain the App's functionality, including tarot readings, dream interpretation, horoscopes, daily cards, and the journal.</li>
+        <li>To personalize your experience, including AI-generated tarot interpretations, dream analyses, horoscope forecasts, and localized greetings.</li>
+        <li>To manage your access and enforce daily limits based on your Ascendra Plus status, your credits and your free allowance.</li>
+        <li>To process subscriptions and credit package purchases, and to track your credit balance.</li>
+        <li>For earlier versions of the App that offer rewarded video ads (until December 1, 2026), to grant credits for completed ad views and to enforce the daily limit (maximum 2 per day) through server-side tracking (see Section 9).</li>
+        <li>To manage the referral program, including generating unique referral codes, tracking referral relationships, and granting bonus credits.</li>
+        <li>To track and display your achievements and usage milestones.</li>
+        <li>To maintain your daily Card of the Day streak and process streak protection (credit deduction).</li>
+        <li>To send you push notifications (with your permission), including daily card reminders, streak reminders, achievement notifications, astrological event alerts, re-engagement reminders, win-back messages, horoscope reminders, and dream reminders.</li>
+        <li>To provide offline functionality through local data caching.</li>
+        <li>To power the home screen widget with your current daily card.</li>
+        <li>To improve the App through analytics and crash reporting.</li>
+        <li>To respond to your inquiries and provide customer support.</li>
+        <li>To comply with legal obligations.</li>
+    </ul>
+
+    <h2>3. Data Sharing and Disclosure</h2>
+    <p>We do not sell your personal information to third parties. We may share your information with:</p>
+    <ul>
+        <li><strong>Service Providers:</strong> Third-party services that help us operate the App, including:
+            <ul>
+                <li>Google Firebase (authentication, Firestore database, Cloud Functions, analytics, crash reporting via Firebase Crashlytics, and App Check, which confirms that requests come from a genuine copy of the App through the Google Play Integrity API on Android and Apple App Attest or DeviceCheck on iOS)</li>
+                <li>OpenAI API (AI-generated tarot interpretations, dream analyses, and horoscope forecasts, and an automated safety check of your question or dream description before a reading is generated — we send only the reading question, the dream description and the emotion tags you select for it, the selected card data, your zodiac sign (if you provided a date of birth), the horoscope period (daily, monthly or yearly), and your language preference; no personal identifiers are included)</li>
+                <li>Google Play Billing (subscription and credit package transaction management)</li>
+                <li>Google AdMob and Google User Messaging Platform — only in earlier versions of the App that included advertising (see Section 9)</li>
+            </ul>
+        </li>
+        <li><strong>Legal Requirements:</strong> When required by law, subpoena, or other legal process.</li>
+        <li><strong>Business Transfers:</strong> In connection with a merger, acquisition, or sale of assets.</li>
+    </ul>
+
+    <h2>4. Data Retention</h2>
+    <p>We retain your personal data for as long as your account is active or as needed to provide you with the App's services. Specifically:</p>
+    <ul>
+        <li><strong>Service History:</strong> All your past tarot readings, dream interpretations, and horoscope forecasts are stored in your Firestore account and are fully accessible in the journal regardless of your subscription tier.</li>
+        <li><strong>Credits:</strong> Your credit balance (including credits earned via purchases, referrals, and rewarded ads in earlier versions) is retained until used. When you delete your account, your unused balance is moved to the anti-abuse record described in Section 7.1 and returned if you create a new account with the same email address (or, if the deleted account had no email address, a new account started on the same device without signing in).</li>
+        <li><strong>Achievement Data:</strong> Achievement progress is stored as long as your account exists.</li>
+        <li><strong>Ad View Records (earlier versions):</strong> Daily rewarded ad view counts from earlier versions of the App are stored in Firestore for limit enforcement. Historical ad view data is retained for abuse prevention.</li>
+        <li><strong>Referral Data:</strong> Referral codes and referral relationships are retained as long as your account exists.</li>
+        <li><strong>Locally Cached Data:</strong> DataStore and SharedPreferences data persists on your device until the App is uninstalled or its data is cleared.</li>
+        <li><strong>Purchase and Fraud-Prevention Records:</strong> Kept after account deletion for as long as needed for refunds, chargebacks, abuse prevention and accounting, as described in Section 7.1.</li>
+        <li><strong>Crash Reports:</strong> Kept by Firebase Crashlytics for 90 days after they are collected, after which Google begins removing them from its live and backup systems. The crash event added to Firebase Analytics follows the analytics retention described in Section 7.1.</li>
+    </ul>
+    <p>You may permanently delete your account and associated data at any time, except for the limited records listed in Section 7.1. See <a href="#deletion">Section 7.1 — Account Deletion</a> below for the in-app self-service option and the email fallback.</p>
+
+    <h2>5. Data Security</h2>
+    <p>We implement appropriate technical and organizational security measures to protect your data, including:</p>
+    <ul>
+        <li>Encrypted data transmission (HTTPS/TLS).</li>
+        <li>Secure authentication via Google Sign-In.</li>
+        <li>Firebase security rules to protect database access.</li>
+        <li>Atomic database operations for financial data (credits) to prevent data corruption.</li>
+    </ul>
+    <p>However, no method of transmission over the Internet or electronic storage is 100% secure. We cannot guarantee absolute security of your data.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>The App is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected personal data from a child under 13, we will take steps to delete such information promptly. If you believe that a child under 13 has provided us with personal information, please contact us.</p>
+
+    <h2>7. Your Rights</h2>
+    <p>Depending on your jurisdiction (including, without limitation, the EU/EEA under GDPR, the United Kingdom under UK GDPR, California under CCPA/CPRA, and other US state privacy laws such as CPA, CTDPA, VCDPA, UCPA), you may have the following rights:</p>
+    <ul>
+        <li><strong>Access:</strong> Request a copy of the personal data we hold about you.</li>
+        <li><strong>Correction:</strong> Request correction of inaccurate personal data.</li>
+        <li><strong>Deletion (Right to be Forgotten):</strong> Request permanent deletion of your account and associated personal data, except for the limited records we must keep — see <a href="#deletion">Section 7.1</a> below.</li>
+        <li><strong>Portability:</strong> Request a machine-readable copy of your data.</li>
+        <li><strong>Opt-out:</strong> Turn off reminders in the App (<em>Profile → Notifications</em>: pause all reminders, or turn off daily card, dream, horoscope, streak and astrological event reminders individually), or turn off any type of notification in your device settings. Achievement notifications can be turned off only in your device settings. The App does not currently offer an in-app switch for analytics or crash reporting; you can reset your advertising ID in your device settings, or email us to delete the analytics data linked to your account.</li>
+        <li><strong>Withdraw Consent:</strong> Where processing is based on your consent (e.g., using your date of birth, or sending your dream descriptions or questions to the cards to our AI service), you may withdraw it at any time without affecting the lawfulness of processing carried out before withdrawal. You can do this in the App: <em>Profile → Data and consents</em>.</li>
+        <li><strong>Lodge a Complaint:</strong> EU/EEA and UK users may lodge a complaint with their national data protection authority.</li>
+    </ul>
+
+    <h3 id="deletion">7.1 Account Deletion</h3>
+    <p>You can permanently delete your Ascendra account and associated personal data (except the limited records listed under <em>What we keep</em> below) in two ways:</p>
+    <ul>
+        <li><strong>In-app (recommended, immediate):</strong> Open the App → <em>Profile</em> → <em>Delete Account</em>. After confirmation, your account and data are deleted within seconds and you are signed out automatically.</li>
+        <li><strong>By email:</strong> If you no longer have access to the App, send a deletion request from the email address associated with your account to <a href="mailto:avlaskin176@gmail.com">avlaskin176@gmail.com</a> with the subject line <em>"Delete my Ascendra account"</em>. We will verify your identity and complete the deletion within 30 days. We keep a short note with your internal account ID and the deletion date as proof that the request was completed; it is kept for as long as the App is offered. An anonymous account (if you used the App without signing in) has no email address, so we cannot find it this way; delete it in the App instead.</li>
+    </ul>
+    <p>The deletion process removes the following data permanently:</p>
+    <ul>
+        <li>Your Firebase Authentication record (email, display name, profile photo reference).</li>
+        <li>Your user profile in Firestore (email address, display name, profile photo link, avatar preferences, date of birth, device identifier, onboarding answer, credit balance, usage counters, subscription status fields).</li>
+        <li>All readings: tarot spreads, dream interpretations, and horoscope entries.</li>
+        <li>Achievement progress and unlock history.</li>
+        <li>Reward-ad view counters stored in your profile (from earlier versions) and AI-usage audit records.</li>
+        <li>Your referral code and the lookup record under it.</li>
+        <li>Records of server-side reading and horoscope charges, the link between your subscription purchase token and your account, and any content reports you submitted.</li>
+    </ul>
+    <p><strong>What we keep or cannot delete on your behalf:</strong></p>
+    <ul>
+        <li><strong>Active Google Play subscriptions:</strong> Deleting your account does NOT cancel an active Ascendra Plus subscription. Cancel any active subscription separately — on Android via Google Play Store → Subscriptions, on iOS via Settings → your Apple Account → Subscriptions — <em>before</em> deleting your account, or you may continue to be billed.</li>
+        <li><strong>Purchase and fraud-prevention records:</strong> We keep records of your Google Play and App Store purchases (order ID, purchase token or its one-way hash, product, credits granted, amount paid, currency and country of purchase as reported by the store, order status, any refund or revocation, dates and your internal account ID), the history of credit changes on your account, technical records of each purchase check made by the App (outcome, order ID, purchase token, App and Android version, error text), and daily counters of rewarded ads from earlier versions, kept per hashed device identifier, per hashed email address and per hashed account ID. They are needed to process refunds and chargebacks, to prevent the same purchase or reward from being used twice, and to meet accounting obligations. They are not accessible to client applications and are not used for any other purpose. Google and Apple also keep their own records of your purchases under their privacy policies.</li>
+        <li><strong>Analytics data:</strong> Usage events already sent to Firebase Analytics are not removed automatically when you delete your account. Google Analytics deletes user-level data after its retention period (at most 14 months); if you want it deleted sooner, email us and we will delete the analytics data linked to your account. Aggregated statistics that cannot be linked back to you (e.g., total install counts) may be kept.</li>
+        <li><strong>Crash reports:</strong> Crash and error reports are not linked to your account, so we cannot find them by your account and they are not removed when you delete it; Firebase Crashlytics begins deleting them automatically 90 days after they are collected. Crash events in Firebase Analytics are covered by the analytics data item above.</li>
+        <li><strong>Records we are legally required to keep:</strong> Where applicable law requires us to retain certain transaction or fraud-prevention records, we will keep only the minimum necessary and securely delete the rest.</li>
+        <li><strong>Anti-abuse record:</strong> To prevent starter credits, the free allowance and other one-time bonuses from being claimed again by deleting and re-creating an account, we keep a one-way cryptographic hash (SHA-256) of your email address and a separate hash of your device identifier (on Android, the Android ID), when available. The record is created as soon as our server first sees your email address or device identifier (normally right after your account is created), and it is updated and kept when you delete your account. Stored alongside it are the date your first account was created, the date the record was last updated, whether starter credits or a signup bonus were granted, the date you moved to the current pricing model, your used free allowance from earlier versions (free readings and dream interpretations consumed and the dates they were used), the referral code you applied (if any), any shortfall left after a refunded purchase, and your unused credit balance at the moment of deletion. Your email address and device identifier are never stored in readable form, only as this one-way hash. If you later create a new account with the same email address or on the same device, starter credits and the free allowance are not granted again. Your unused credits are returned to a new account with the same email address, or, if the deleted account had no email address, to a new account started on the same device without signing in. The record is kept for as long as the App is offered, with no fixed deletion date. It is never shared with anyone and is accessible only to our server functions — client applications cannot read it.</li>
+        <li><strong>Locally cached data:</strong> Deleting your account in the App erases your drafts. Other data stored on your device (the offline cache of your profile and journal, DataStore, SharedPreferences, the Daily Card widget cache, unsent crash reports) stays on the device until you uninstall the App or clear its data in your device settings.</li>
+    </ul>
+    <p>Deletion is <strong>permanent and irreversible</strong>. There is no undo — achievement progress and reading history cannot be restored after deletion. The only exception is unused credits, which are returned if you create a new account with the same email address, or, if the deleted account had no email address, on the same device (see the anti-abuse record above).</p>
+
+    <p>To exercise any of the other rights listed above (access, correction, portability, opt-out, withdrawal of consent, or to lodge a complaint), please contact us at the email address provided in Section 14.</p>
+
+    <h2>8. Push Notifications</h2>
+    <p>The App may send push notifications for the following purposes:</p>
+    <ul>
+        <li><strong>Daily Card Reminders:</strong> A morning reminder to check your daily tarot card (scheduled at 8:30 AM local time).</li>
+        <li><strong>Streak Reminders:</strong> An evening reminder if you haven't checked your daily card, to help maintain your streak (scheduled at 8:00 PM local time).</li>
+        <li><strong>Achievement Notifications:</strong> Alerts when you unlock new achievements or reach milestones.</li>
+        <li><strong>Astrological Event Alerts:</strong> Notifications about upcoming astrological events such as Mercury Retrograde, eclipses, solstices, equinoxes, and supermoons (scheduled at 10:00 AM local time).</li>
+        <li><strong>Re-engagement Reminders:</strong> Context-aware notifications if you haven't opened the App today, with information about your current streak or progress toward milestones (scheduled at 2:00 PM local time). These notifications use your streak count, last activity date, and achievement progress to provide relevant messaging.</li>
+        <li><strong>Win-back Messages:</strong> Notifications if you haven't used the App for 3 or 7 days, encouraging you to return (scheduled at 12:00 PM local time). These use your last activity date to determine eligibility.</li>
+        <li><strong>Horoscope Reminders:</strong> A morning reminder to check your free daily horoscope (scheduled at 9:00 AM local time).</li>
+        <li><strong>Dream Reminders:</strong> An evening reminder to record your dreams before you forget them (scheduled at 10:00 PM local time).</li>
+    </ul>
+    <p>Each notification type uses a separate Android notification channel, allowing you granular control over which notifications you receive. You can manage or disable notifications through the App's notification settings or your device settings.</p>
+
+    <h2 id="advertising">9. Advertising</h2>
+    <p>The current version of the App does not show ads. It no longer includes the Google AdMob advertising SDK or the Google User Messaging Platform (UMP), and it does not ask you for advertising consent.</p>
+    <p><strong>Earlier versions.</strong> Versions of the App up to 1.1.56 on Android include these SDKs, and they keep working on devices where the App has not been updated. Versions up to 1.1.48 offer optional rewarded video ads, provided by Google AdMob, to non-subscriber users who choose to watch them, until December 1, 2026; from that date our server switches this offer off in those versions. Versions 1.1.49 to 1.1.56 do not display ads but may still initialise the advertising SDK and load an ad in advance. In regulated regions (EU/EEA, UK, Switzerland; US states with applicable privacy laws), these versions ask for an advertising privacy choice through the UMP form, which can be changed in those versions under <em>Profile → Manage Privacy Choices</em>. Depending on that choice, Google AdMob may collect device identifiers (including the advertising identifier), IP address, approximate location and ad interaction data. Updating the App to the current version stops this. For details, see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543">Google AdMob's data disclosure</a>.</p>
+
+    <h2>10. Home Screen Widget</h2>
+    <p>The App offers an optional home screen widget that displays your current Card of the Day. The widget reads data from a local SharedPreferences store on your device. No additional data is collected or transmitted by the widget beyond what the App already processes.</p>
+
+    <h2>11. Third-Party Links</h2>
+    <p>The App may contain links to third-party websites or services. We are not responsible for the privacy practices of these third parties. We encourage you to review the privacy policies of any third-party services you access.</p>
+
+    <h2>12. International Data Transfers</h2>
+    <p>Your information may be transferred to and processed in countries other than your country of residence, including through Google Firebase (United States), OpenAI (United States), and, for earlier versions of the App that included advertising, Google AdMob (United States). These countries may have different data protection laws. By using the App, you consent to such transfers. We take appropriate measures to ensure your data is protected in accordance with this Privacy Policy.</p>
+
+    <h2>13. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Effective Date" at the top of this page. We encourage you to review this Privacy Policy periodically. Your continued use of the App after any changes constitutes your acceptance of the updated Privacy Policy.</p>
+
+    <h2>14. Contact Us</h2>
+    <p>If you have questions or concerns about this Privacy Policy or our data practices, please contact us at:</p>
+    <p><a href="mailto:avlaskin176@gmail.com">avlaskin176@gmail.com</a></p>
+</body>
+</html>

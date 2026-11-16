@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account & Data — Ascendra</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a14;
+            color: #e0dcd4;
+            padding: 24px 20px 48px;
+            line-height: 1.7;
+            font-size: 15px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #d4a574;
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: 6px;
+            letter-spacing: 1px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #8a8680;
+            font-size: 13px;
+            margin-bottom: 32px;
+        }
+        h2 {
+            color: #c9956b;
+            font-size: 17px;
+            margin-top: 28px;
+            margin-bottom: 10px;
+        }
+        p { margin-bottom: 12px; }
+        ul { padding-left: 22px; margin-bottom: 12px; }
+        li { margin-bottom: 6px; }
+        a { color: #7ecdc0; }
+        .highlight { color: #d4a574; }
+        .card {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #c9956b, #d4a574);
+            color: #0a0a14;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 24px;
+            font-weight: 600;
+            font-size: 15px;
+            text-align: center;
+            width: 100%;
+            margin-top: 12px;
+        }
+        .warning {
+            color: #e07a5f;
+            font-size: 13px;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Account & Data Deletion</h1>
+        <p class="subtitle">Ascendra (formerly VibeCheck) — Tarot, Dream Book &amp; Horoscope<br>Updated: November 16, 2026</p>
+
+        <p>We respect your right to control your personal data. You can delete your <span class="highlight">Ascendra</span> account and its associated data at any time; if you use the app without an account, this is possible only in the app (see below). A small set of purchase and anti-abuse records is kept, as listed below.</p>
+
+        <h2>How to delete your account</h2>
+        <div class="card">
+            <ul>
+                <li><strong>In the app (immediate):</strong> open Ascendra → <em>Profile</em> → <em>Delete Account</em> and confirm. Deletion completes within seconds and you are signed out.</li>
+                <li><strong>By email (if you no longer have the app):</strong> write from the email address you used to sign in (Google or Apple) with "Delete my Ascendra account" in the subject line. We verify the request and complete deletion within 30 days, then send a confirmation. We keep a short note with your internal account ID and the deletion date as proof that the request was completed; it is kept for as long as the App is offered.</li>
+                <li><strong>If you use Ascendra without an account:</strong> your data is stored on our servers under an anonymous account that only this installation of the app can open, so we cannot find it from an email request. Delete it in the app (<em>Profile</em> → <em>Delete Account</em>) before you sign in to another account, uninstall the app or clear its data.</li>
+            </ul>
+        </div>
+
+        <div class="card" style="text-align:center;">
+            <a class="btn" href="mailto:avlaskin176@gmail.com?subject=Delete%20my%20Ascendra%20account&body=Please%20delete%20my%20Ascendra%20account%20and%20associated%20data.%0A%0AMy%20account%20email%3A%20">Request Account Deletion</a>
+        </div>
+
+        <h2>What is deleted</h2>
+        <div class="card">
+            <ul>
+                <li>Your sign-in record and profile (name, email, avatar, date of birth, device identifier, credit balance, subscription status)</li>
+                <li>Tarot readings, dream interpretations and horoscopes, including your questions and dream texts</li>
+                <li>Achievements, Card of the Day streak and, from app versions up to 1.1.48, the rewarded-ad counters stored in your profile</li>
+                <li>Your referral code, AI usage and charge records, the link between your subscription and your account, and any content reports you submitted</li>
+            </ul>
+        </div>
+
+        <h2>What is kept</h2>
+        <div class="card">
+            <ul>
+                <li><strong>Purchase and fraud-prevention records:</strong> order ID, purchase token, product, amount paid, currency and country of purchase, order status, credits granted, refund or revocation status, dates and internal account ID of your purchases, the history of credit changes, diagnostics from purchase checks (successful and failed: app and Android version, order ID, purchase token and error details), and daily rewarded-ad counters from app versions up to 1.1.48, kept under a one-way hash of your device ID, email or account ID. Kept as long as needed for refunds, chargebacks, abuse prevention and accounting.</li>
+                <li><strong>Anti-abuse record:</strong> a one-way hash of your email and of your device identifier (only the device one if you used the app without an account), with the dates it was first and last seen, your used free allowance, whether the sign-in bonus and starter credits were already given, which pricing model applied to you, the referral code you applied, any credits from a refunded purchase that could not be taken back, and your unused credits. It prevents starter credits and the free allowance from being granted twice and is kept for as long as Ascendra is offered, with no fixed deletion date. If you sign in again with the same email (or, without an account, start again on the same device), your unused credits are returned.</li>
+                <li><strong>Analytics:</strong> usage events already sent to Firebase Analytics are deleted by Google after their retention period (at most 14 months). Email us to have them deleted sooner.</li>
+                <li><strong>Crash reports:</strong> they are not linked to your account, so we cannot find or delete them by account; Firebase Crashlytics begins deleting them automatically 90 days after they are collected.</li>
+                <li><strong>Data on your device:</strong> deleting your account in the app erases your drafts. The offline copy of your profile and journal, the widget data and your app settings stay on the device until you uninstall the app or clear its data.</li>
+            </ul>
+            <p class="warning">Deletion is permanent: reading history and achievements cannot be restored. Deleting your account does not turn unused credits into money; refunds for purchases are handled by the store you bought them in (see our Terms of Service).</p>
+        </div>
+
+        <h2>Active subscriptions</h2>
+        <p>Deleting your account does not cancel your subscription. Cancel it first to avoid further charges: on Android in <a href="https://play.google.com/store/account/subscriptions">Google Play subscription settings</a>, on iPhone in Settings → your Apple Account → Subscriptions.</p>
+
+        <h2>Contact</h2>
+        <p>If you have questions about data deletion, contact us at <a href="mailto:avlaskin176@gmail.com">avlaskin176@gmail.com</a></p>
+    </div>
+</body>
+</html>
